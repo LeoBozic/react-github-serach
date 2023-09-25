@@ -20,7 +20,7 @@ function Input({ newName }) {
         id="nameInput"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        placeholder="e.g. facebook"
+        placeholder="e.g. reduxjs"
       />
       <button type="submit">GO!</button>
     </form>
